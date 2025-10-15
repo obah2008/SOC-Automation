@@ -3,6 +3,7 @@
 This project demonstrates how AI-powered automation can streamline Security Operations Center (SOC) workflows.  
 Using **n8n**, **Ollama**, **Splunk**, and **Slack**, the setup enables autonomous alert processing and decision-making, essentially turning a local LLM into an **AI security agent**.
 
+Since this setup is completely local, it removes the privacy risk that comes with feeding data into an API accessesed LLM?
 ---
 
 ## Components
