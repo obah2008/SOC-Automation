@@ -1,11 +1,11 @@
 # SOC-Automation
-## 🧠 Overview
+##  Overview
 This project demonstrates how AI-powered automation can streamline Security Operations Center (SOC) workflows.  
 Using **n8n**, **Ollama**, **Splunk**, and **Slack**, the setup enables autonomous alert processing and decision-making, essentially turning a local LLM into an **AI security agent**.
 
 ---
 
-## ⚙️ Components
+## Components
 - **n8n:** Workflow automation platform for orchestrating alert handling and actions.  
 - **Splunk:** SIEM platform used for log collection, analysis, and alert generation.  
 - **Ollama:** Local LLM runtime for processing alerts and making decisions based on their context.  
@@ -14,7 +14,7 @@ Using **n8n**, **Ollama**, **Splunk**, and **Slack**, the setup enables autonomo
 
 ---
 
-## 🧩 Project Architecture
+## Project Architecture
 1. **Splunk** detects suspicious activity and triggers an alert.  
 2. The alert is forwarded to **n8n** via webhook or API call.  
 3. **Ollama** receives the alert content, analyzes it, and classifies it (e.g., *low*, *medium*, *high severity*).  
@@ -40,14 +40,14 @@ Using **n8n**, **Ollama**, **Splunk**, and **Slack**, the setup enables autonomo
 
 ---
 
-## 🧠 Example Workflow
+## Example Workflow
 - **Input:** Splunk detects repeated failed login attempts.  
 - **Process:** Alert sent to n8n → analyzed by Ollama → determined as brute-force attempt.  
 - **Output:** n8n notifies Slack and triggers response action (e.g., lock user account).
 
 ---
 
-## 🧩 Future Enhancements
+## Future Enhancements
 - Add threat enrichment using OSINT APIs (e.g., VirusTotal, AbuseIPDB).  
 - Integrate ticketing (e.g., TheHive or Jira).  
 - Train a fine-tuned model for better incident classification.  
