@@ -12,7 +12,9 @@ This setup enables your AI-driven SOC to process Splunk alerts, reason about thr
 ```pwsh
 wsl --install
 ```
-- 
+- Setup a usename and password
+
+### Step 2:
 
 > **Note:**  
 > This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
