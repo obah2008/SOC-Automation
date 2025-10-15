@@ -8,11 +8,11 @@ This setup enables your AI-driven SOC to process Splunk alerts, reason about thr
 > This setup assumes the operating system you're running is windows
 
 ### Step 1: Download WSL
-On the powershell terminal download and install WSL using the command below
+- On the powershell terminal download and install WSL[Windows Subsystem for Linux] using the command below
 ```pwsh
-
+wsl --install
 ```
-
+- 
 
 > **Note:**  
 > This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
