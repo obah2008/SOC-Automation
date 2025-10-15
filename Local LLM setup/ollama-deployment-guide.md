@@ -1,6 +1,13 @@
 # Setting Up Ollama as a Local LLM Server
 
+## Overview
+In this section of the SOC Automation Project, we’ll be setting up **Ollama**, a local large language model (LLM) runtime that allows you to run open-source models entirely offline.  
+This setup enables your AI-driven SOC to process Splunk alerts, reason about threat data, and trigger automated workflows, all while maintaining **complete data privacy**.
+
+## Setup
+> This setup assumes the operating system you're running is windows
+
 
 
 > **Note:**  
-> This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Jcb9uneWGK0).  
+> This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
