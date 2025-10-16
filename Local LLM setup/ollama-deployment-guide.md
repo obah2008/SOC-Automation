@@ -28,8 +28,25 @@ Head over to the [Ollama Linux download page](https://ollama.com/download/linux)
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+<img width="1364" height="719" alt="image" src="https://github.com/user-attachments/assets/0ff70ecf-d978-4670-96c7-bec51739ef60" />
 
+### Step 4: Pulling the LLM
 
+Since Ollama by itself is just an engine, we’ll need to pull a Large Language Model (LLM) for this setup to actually function.  
+For this project, I’ll be using **Mistral**, but there are several other great options depending on your system’s specs and use case.
+
+| Model | Description | Command | Recommended Specs |
+|:--|:--|:--|:--|
+| **Mistral** | Balanced in size and performance, ideal for local automation tasks. | `ollama pull mistral` | 16 GB RAM, quad-core CPU |
+| **Llama3:8b** | Slightly larger, more advanced reasoning, slower on weaker hardware. | `ollama pull llama3:8b` | 16 GB+ RAM, modern CPU |
+| **Gemma:2b** | Lightweight model by Google, great for fast responses. | `ollama pull gemma:2b` | 8–12 GB RAM |
+| **Phi3:mini** | Small and efficient Microsoft model, very fast on midrange laptops. | `ollama pull phi3:mini` | 8 GB RAM |
+| **NeuralChat** | Tuned for conversational tone, useful for interactive tasks. | `ollama pull neural-chat` | 16 GB RAM |
+
+To pull **Mistral**, run the following command:
+```bash
+ollama pull mistral
+```
 
 > **Note:**  
 > This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
