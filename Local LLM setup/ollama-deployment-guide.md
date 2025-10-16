@@ -21,5 +21,8 @@ wsl --install
 sudo apt update && sudo apt upgrade -y
 ```
 
+### Step 3: Installing Ollama
+
+
 > **Note:**  
 > This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
