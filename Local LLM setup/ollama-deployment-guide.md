@@ -20,6 +20,15 @@ wsl --install
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
+### Step 3: Installing Ollama
+
+Next, we’ll install **Ollama**, the local AI model runner that allows us to run open-source LLMs directly on our machine.  
+Head over to the [Ollama Linux download page](https://ollama.com/download/linux) and run the following command in your WSL terminal:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
 
 ### Step 3: Installing Ollama
 
