@@ -12,6 +12,8 @@ This setup enables your AI-driven SOC to process Splunk alerts, reason about thr
 ```pwsh
 wsl --install
 ```
+<img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/9d7d766d-4aaf-40aa-a285-89b3c1593994" />
+
 - Setup a usename and password
 
 ### Step 2:
