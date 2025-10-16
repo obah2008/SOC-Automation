@@ -18,7 +18,7 @@ wsl --install
 
 ### Step 2: Download and update packages
 ```bash
-
+sudo apt update && sudo apt upgrade -y
 ```
 
 > **Note:**  
