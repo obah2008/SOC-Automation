@@ -80,6 +80,14 @@ sudo apt-get update
 #### Installing the Web UI
 For this setup, we’ll use **Open WebUI**, one of the most popular and lightweight interfaces for Ollama.
 
+- Pull Open WebUI with the command below
+```bash
+docker pull ghcr.io/open-webui/open-webui:main
+```
+- Run it
+```bash
+docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
+```
 
 > **Note:**  
 > This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
