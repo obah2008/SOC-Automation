@@ -48,5 +48,14 @@ To pull **Mistral**, run the following command:
 ollama pull mistral
 ```
 
+### Step 5: Setting up Web UI *(Optional)*
+
+> **Note:** This step is completely optional, the Web UI is only for convenience.  
+> Ollama will still work perfectly fine via the command line or API without it.
+
+#### ⚙️ Installing the Web UI
+For this setup, we’ll use **Open WebUI**, one of the most popular and lightweight interfaces for Ollama.
+
+
 > **Note:**  
 > This section of the SOC Automation Project is based on [Network Chuck’s video guide on Ollama](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=158s).  
