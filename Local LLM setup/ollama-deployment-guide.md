@@ -84,6 +84,9 @@ For this setup, we’ll use **Open WebUI**, one of the most popular and lightwei
 ```bash
 docker pull ghcr.io/open-webui/open-webui:main
 ```
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3781096e-3c23-4439-8bf6-bfaf63039443" />
+
 - Run it
 ```bash
 docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
