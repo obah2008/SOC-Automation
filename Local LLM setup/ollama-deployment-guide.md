@@ -53,6 +53,9 @@ ollama pull mistral
 > **Note:** This step is completely optional, the Web UI is only for convenience.  
 > Ollama will still work perfectly fine via the command line or API without it.
 
+#### Installing Docker
+Before installing the web UI, we'll need docker
+
 #### ⚙️ Installing the Web UI
 For this setup, we’ll use **Open WebUI**, one of the most popular and lightweight interfaces for Ollama.
 
