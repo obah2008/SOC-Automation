@@ -47,6 +47,7 @@ To pull **Mistral**, run the following command:
 ```bash
 ollama pull mistral
 ```
+> Tip: The download might "Jump back" if you don't have a stable internet connection, to get around this you can download and install the models manually
 
 ### Step 5: Setting up Web UI *(Optional)*
 
